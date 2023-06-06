@@ -58,6 +58,21 @@ div.carousel div.next-button{
     transform: translateY(-50%);
 }
 
+div.carousel div.previous-button button,
+div.carousel div.next-button button{
+    color: rgb(26, 26, 26);
+    background-color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+div.carousel div.previous-button button:hover,
+div.carousel div.next-button button:hover{
+    color: rgb(211, 211, 211);
+    background-color: rgb(102, 102, 102);
+}
+
 div.carousel div.previous-button{
     left: 20px;
 }
